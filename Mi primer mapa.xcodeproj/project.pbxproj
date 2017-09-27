@@ -58,10 +58,8 @@
 		BECEDC481F7C6A2E00F4B6B7 /* Mi primer mapa */ = {
 			isa = PBXGroup;
 			children = (
-				BECEDC491F7C6A2E00F4B6B7 /* AppDelegate.h */,
-				BECEDC4A1F7C6A2E00F4B6B7 /* AppDelegate.m */,
-				BECEDC4C1F7C6A2E00F4B6B7 /* ViewController.h */,
-				BECEDC4D1F7C6A2E00F4B6B7 /* ViewController.m */,
+				BECEDC601F7C6A4100F4B6B7 /* Controllers */,
+				BECEDC5F1F7C6A3800F4B6B7 /* Main */,
 				BECEDC4F1F7C6A2E00F4B6B7 /* Main.storyboard */,
 				BECEDC521F7C6A2E00F4B6B7 /* Assets.xcassets */,
 				BECEDC541F7C6A2E00F4B6B7 /* LaunchScreen.storyboard */,
@@ -69,6 +67,24 @@
 				BECEDC581F7C6A2E00F4B6B7 /* main.m */,
 			);
 			path = "Mi primer mapa";
+			sourceTree = "<group>";
+		};
+		BECEDC5F1F7C6A3800F4B6B7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BECEDC491F7C6A2E00F4B6B7 /* AppDelegate.h */,
+				BECEDC4A1F7C6A2E00F4B6B7 /* AppDelegate.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BECEDC601F7C6A4100F4B6B7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BECEDC4C1F7C6A2E00F4B6B7 /* ViewController.h */,
+				BECEDC4D1F7C6A2E00F4B6B7 /* ViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
