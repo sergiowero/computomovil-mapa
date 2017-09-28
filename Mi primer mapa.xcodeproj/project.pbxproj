@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A969CDB9E6BAEFEEC2907029 /* libPods-Mi primer mapa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE284CD1153AAA43A5422AF7 /* libPods-Mi primer mapa.a */; };
 		BECEDC4B1F7C6A2E00F4B6B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BECEDC4A1F7C6A2E00F4B6B7 /* AppDelegate.m */; };
 		BECEDC4E1F7C6A2E00F4B6B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BECEDC4D1F7C6A2E00F4B6B7 /* ViewController.m */; };
 		BECEDC511F7C6A2E00F4B6B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECEDC4F1F7C6A2E00F4B6B7 /* Main.storyboard */; };
 		BECEDC531F7C6A2E00F4B6B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BECEDC521F7C6A2E00F4B6B7 /* Assets.xcassets */; };
 		BECEDC561F7C6A2E00F4B6B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECEDC541F7C6A2E00F4B6B7 /* LaunchScreen.storyboard */; };
 		BECEDC591F7C6A2E00F4B6B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BECEDC581F7C6A2E00F4B6B7 /* main.m */; };
+		BECEDC621F7C6C8200F4B6B7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BECEDC611F7C6C8200F4B6B7 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5906D60614CBB5466C2A9A30 /* Pods-Mi primer mapa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mi primer mapa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mi primer mapa/Pods-Mi primer mapa.release.xcconfig"; sourceTree = "<group>"; };
+		B57EF20C3BF9CB89B738A089 /* Pods-Mi primer mapa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mi primer mapa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mi primer mapa/Pods-Mi primer mapa.debug.xcconfig"; sourceTree = "<group>"; };
+		BE284CD1153AAA43A5422AF7 /* libPods-Mi primer mapa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mi primer mapa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECEDC461F7C6A2E00F4B6B7 /* Mi primer mapa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mi primer mapa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECEDC491F7C6A2E00F4B6B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BECEDC4A1F7C6A2E00F4B6B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		BECEDC551F7C6A2E00F4B6B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BECEDC571F7C6A2E00F4B6B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BECEDC581F7C6A2E00F4B6B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BECEDC611F7C6C8200F4B6B7 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A969CDB9E6BAEFEEC2907029 /* libPods-Mi primer mapa.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F2B3C32E45E03F1FCE9DB2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B57EF20C3BF9CB89B738A089 /* Pods-Mi primer mapa.debug.xcconfig */,
+				5906D60614CBB5466C2A9A30 /* Pods-Mi primer mapa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		778C934A2BD15A1F32A5F33C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE284CD1153AAA43A5422AF7 /* libPods-Mi primer mapa.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BECEDC3D1F7C6A2E00F4B6B7 = {
 			isa = PBXGroup;
 			children = (
+				BECEDC611F7C6C8200F4B6B7 /* Podfile */,
 				BECEDC481F7C6A2E00F4B6B7 /* Mi primer mapa */,
 				BECEDC471F7C6A2E00F4B6B7 /* Products */,
+				3F2B3C32E45E03F1FCE9DB2F /* Pods */,
+				778C934A2BD15A1F32A5F33C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BECEDC5C1F7C6A2E00F4B6B7 /* Build configuration list for PBXNativeTarget "Mi primer mapa" */;
 			buildPhases = (
+				056B44A029D042973D68C04B /* [CP] Check Pods Manifest.lock */,
 				BECEDC421F7C6A2E00F4B6B7 /* Sources */,
 				BECEDC431F7C6A2E00F4B6B7 /* Frameworks */,
 				BECEDC441F7C6A2E00F4B6B7 /* Resources */,
+				C90AEFEAE3A23F85F09564D6 /* [CP] Embed Pods Frameworks */,
+				23FAA293CD517474996CFE94 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BECEDC621F7C6C8200F4B6B7 /* Podfile in Resources */,
 				BECEDC561F7C6A2E00F4B6B7 /* LaunchScreen.storyboard in Resources */,
 				BECEDC531F7C6A2E00F4B6B7 /* Assets.xcassets in Resources */,
 				BECEDC511F7C6A2E00F4B6B7 /* Main.storyboard in Resources */,
@@ -152,6 +183,61 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		056B44A029D042973D68C04B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mi primer mapa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23FAA293CD517474996CFE94 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mi primer mapa/Pods-Mi primer mapa-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mi primer mapa/Pods-Mi primer mapa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C90AEFEAE3A23F85F09564D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mi primer mapa/Pods-Mi primer mapa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BECEDC421F7C6A2E00F4B6B7 /* Sources */ = {
@@ -292,6 +378,7 @@
 		};
 		BECEDC5D1F7C6A2E00F4B6B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B57EF20C3BF9CB89B738A089 /* Pods-Mi primer mapa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,12 +386,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.uag.Mi-primer-mapa";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		BECEDC5E1F7C6A2E00F4B6B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5906D60614CBB5466C2A9A30 /* Pods-Mi primer mapa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +400,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.uag.Mi-primer-mapa";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
